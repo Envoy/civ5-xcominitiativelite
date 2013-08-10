@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_XCOM_HEADQUARTERS</Type>
+			<DefaultBuilding>BUILDING_XCOM_HEADQUARTERS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_XCOM_HEADQUARTERS</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_XCOM_HEADQUARTERS</Type>
+			<BuildingClass>BUILDINGCLASS_XCOM_HEADQUARTERS</BuildingClass>
+			<Cost>-1</Cost>
+			<UnlockedByLeague>true</UnlockedByLeague>
+			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_XCOM_HEADQUARTERS</Description>
+			<Quote>TXT_KEY_BUILDING_XCOM_HEADQUARTERS_QUOTE</Quote>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_XCOM_HEADQUARTERS_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_XCOM_HEADQUARTERS_HELP</Help>
+			<NukeImmune>true</NukeImmune>			
+			<ExtraLeagueVotes>1</ExtraLeagueVotes>
+			<Defense>2500</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>			
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>XCOM_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>XcomHeadquartersSplash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_XCOM_HEADQUARTERS</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_XCOM_HEADQUARTERS</BuildingType>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<NumUnits>3</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_XCOM_HEADQUARTERS">
+			<Text>XCOM Headquarters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_XCOM_HEADQUARTERS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Two possibilities exist: either we are alone in the Universe or we are not. Both are equally terrifying."[NEWLINE] - Arthur C. Clarke[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_XCOM_HEADQUARTERS_HELP">
+			<Text>Can train XCOM Squad Units in all Cities. Three XCOM Squad Units appear near the [ICON_CAPITAL] Capital. Grants 1 additional Delegate in the World Congress. May only be built collaboratively through the World Congress.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_XCOM_HEADQUARTERS_TEXT">
+			<Text>The XCOM Headquarters is the main base of operations for XCOM. Nicknamed the "ant farm", it is made up of numerous facilities that are responsible for managing and supplementing the base's important strategic and research functions. Mission Control, the focus of XCOM engagement, features a rotating hologram of the planet.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

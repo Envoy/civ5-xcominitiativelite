@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LeagueProjectRewards>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_XCOM_1</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_1</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_1_HELP</Help>			
+			<Building>BUILDING_XCOM_OUTPOST</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_XCOM_2</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_2</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_2_HELP</Help>			
+			<Building>BUILDING_XCOM_GARRISON</Building>			
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_XCOM_3</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_3</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_3_HELP</Help>
+			<BaseBeakersTurnsToCount>8</BaseBeakersTurnsToCount>
+			<Building>BUILDING_XCOM_HEADQUARTERS</Building>
+		</Row>
+	</LeagueProjectRewards>
+	<LeagueProjects>
+		<Row>
+			<Type>LEAGUE_PROJECT_XCOM_INITIATIVE</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_XCOM_INITIATIVE</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_XCOM_INITIATIVE_SPLASH</Help>
+			<ProjectSplashImage>XcomInitiativeProject_939x614.dds</ProjectSplashImage>			
+			<Process>PROCESS_XCOM_INITIATIVE</Process>
+			<CostPerPlayer>1250</CostPerPlayer>			
+			<RewardTier1>LEAGUE_PROJECT_REWARD_XCOM_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_XCOM_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_XCOM_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+	</LeagueProjects>
+	<Resolutions>
+		<Row>
+			<Type>RESOLUTION_XCOM_INITIATIVE</Type>
+			<Description>TXT_KEY_RESOLUTION_XCOM_INITIATIVE</Description>
+			<Help>TXT_KEY_RESOLUTION_XCOM_INITIATIVE_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_NANOTECHNOLOGY</TechPrereqAnyMember>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_XCOM_INITIATIVE</LeagueProjectEnabled>
+		</Row>
+	</Resolutions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_XCOM_INITIATIVE">
+			<Text>XCOM Initiative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_XCOM_INITIATIVE_SPLASH">			
+			<Text>Recognizing the potential threat from Giant Death Robots, aliens, and other external threats, the XCOM Initiative was born to protect the populace from enemies known, and unknown.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_1">
+			<Text>We Are Not Alone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_1_HELP">
+			<Text>XCOM Outpost building appears in [ICON_CAPITAL] Capital. ({TXT_KEY_BUILDING_XCOM_OUTPOST_HELP})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_2">
+			<Text>UFO Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_2_HELP">
+			<Text>XCOM Garrison building appears in [ICON_CAPITAL] Capital. ({TXT_KEY_BUILDING_XCOM_GARRISON_HELP})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_3">
+			<Text>Planetary Headquarters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_3_HELP">
+			<Text>One time Research boost. XCOM Headquarters wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_BUILDING_XCOM_HEADQUARTERS_HELP})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_XCOM_INITIATIVE">
+			<Text>XCOM Initiative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_XCOM_INITIATIVE_HELP">
+			<Text>Begins the project to fund the XCOM Initiative. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_XCOM_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Nanotechnology.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

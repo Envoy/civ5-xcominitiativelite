@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_XCOM_GDR_BONUS</Type>
+			<Description>TXT_KEY_PROMOTION_XCOM_GDR_BONUS</Description>
+			<Help>TXT_KEY_PROMOTION_XCOM_GDR_BONUS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_XCOM_GDR_BONUS</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitClasses>
+		<Row>
+			<PromotionType>PROMOTION_XCOM_GDR_BONUS</PromotionType>
+			<UnitClassType>UNITCLASS_MECH</UnitClassType>
+			<Modifier>50</Modifier>
+		</Row>
+	</UnitPromotions_UnitClasses>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<PromotionType>PROMOTION_XCOM_GDR_BONUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_XCOM_GDR_BONUS">
+			<Text>Enemy Known</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XCOM_GDR_BONUS_HELP">
+			<Text>Bonus vs Giant Death Robots (50)</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

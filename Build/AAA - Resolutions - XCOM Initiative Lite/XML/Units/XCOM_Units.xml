@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Update>
+			<Set Moves="3"/>
+			<Where Type="UNIT_XCOM_SQUAD"/>
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Delete UnitType="UNIT_PARATROOPER"/>		
+	</Unit_ClassUpgrades>
+</GameData>

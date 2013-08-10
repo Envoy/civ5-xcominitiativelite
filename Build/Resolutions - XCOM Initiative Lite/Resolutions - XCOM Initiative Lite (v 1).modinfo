@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="24128c20-04ec-44d7-b1df-29e33d784464" version="1">
+  <Properties>
+    <Name>Resolutions - XCOM Initiative Lite</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Recognizing the potential threat from Giant Death Robots, aliens, and other external threats, the XCOM Initiative was born.</Teaser>
+    <Description>Available with Nanotechnology, the XCOM Initiative resolution allows players to work together to form the XCOM organization. All contributors receive special XCOM bases which grant them the ability to train XCOM Squad units.
+
+[NEWLINE][NEWLINE]
+
+This mod aims to make the XCOM Squad unit feel more important and unique than it currently is. XCOM Squad units get buffed with an extra move and a new promotion, Enemy Known, giving them bonuses versus Giant Death Robots. They also gain the ability to enter rival territory. XCOM Squad units can only be built by civilizations which score Bronze, Silver or Gold.
+
+[NEWLINE][NEWLINE]
+
+XCOM Headquarters Wonder: Can train XCOM Squad Units in all Cities. Three XCOM Squad Units appear near the [ICON_CAPITAL] Capital. Grants 1 additional Delegate in the World Congress. May only be built collaboratively through the World Congress.
+
+[NEWLINE][NEWLINE]
+
+XCOM Garrison Building: Can train XCOM Squad Units in this City. May only be built collaboratively through the World Congress.
+
+[NEWLINE][NEWLINE]
+
+XCOM Outpost Building: Can train XCOM Squad Units in this City. May only be built collaboratively through the World Congress.
+
+[NEWLINE][NEWLINE]
+
+Requires Brave New World.
+
+[NEWLINE][NEWLINE]
+
+The original XCOM Initiative mod can be found here: http://steamcommunity.com/sharedfiles/filedetails/?id=166169096
+
+[NEWLINE][NEWLINE]
+
+Follow me on twitter @fourfourhero to get notifications about updates to this mod as well as others.</Description>
+    <Authors>[COLOR_PLAYER_ORANGE]Envoy[ENDCOLOR] [COLOR_CYAN](@fourfourhero)[ENDCOLOR]</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks>
+    <Mod id="Resolutions - XCOM Initiative" minversion="0" maxversion="999" title="07e620c3-964e-4ff0-816d-541f3cee5a26" />
+  </Blocks>
+  <Files>
+    <File md5="EBE078DB47A0095DB3B056AA2F1A28C2" import="1">ART/XcomHeadquartersSplash.dds</File>
+    <File md5="BF4E96780935C037FB1D25F3A9A4F4B9" import="1">ART/XCOMInitiativeIconAtlas128.dds</File>
+    <File md5="6FDEB17DB07B35C1113F3226EE9F0EBB" import="1">ART/XCOMInitiativeIconAtlas256.dds</File>
+    <File md5="946C7E11B54191645165CBD974EE0A11" import="1">ART/XCOMInitiativeIconAtlas45.dds</File>
+    <File md5="1CBE59B1625BA22407E2C07A88B69567" import="1">ART/XCOMInitiativeIconAtlas64.dds</File>
+    <File md5="D6AEAB7EEC15690E53A06E822200172F" import="1">ART/XCOMInitiativeIconAtlas80.dds</File>
+    <File md5="EA8510FD99107A1775C1E1710B297D78" import="1">ART/XcomInitiativeProject_939x614.dds</File>
+    <File md5="E564FC8918EEA5853C62A1F8FA40C96B" import="0">Lua/XcomInitiativeLite.lua</File>
+    <File md5="32F4EEF306F9C4231B0A0A8603F62594" import="0">XML/Buildings/XCOM_Garrison.xml</File>
+    <File md5="FEBCAD7E83CDDB40F1E1AEA0D9339750" import="0">XML/Buildings/XCOM_Headquarters.xml</File>
+    <File md5="07A83399E3CBB3C5FDED89CDC472B573" import="0">XML/Buildings/XCOM_IconTextureAtlases.xml</File>
+    <File md5="BD48AF31C3C530E951025D189C29A9C2" import="0">XML/Buildings/XCOM_Outpost.xml</File>
+    <File md5="89322115CCDB528EE2D46AB1856EA170" import="0">XML/GameInfo/XCOM_Processes.xml</File>
+    <File md5="94788C36B086824DEB774D5B02D1C523" import="0">XML/GameInfo/XCOM_Resolutions.xml</File>
+    <File md5="E1CD8B8D258DF8675464525AC3C5C6FC" import="0">XML/Units/XCOM_Civilizations.xml</File>
+    <File md5="C268AB71BB2BC0085CB2296B7816348E" import="0">XML/Units/XCOM_UnitPromotions.xml</File>
+    <File md5="42FD67A311E6E962DC53E23348CE0E7C" import="0">XML/Units/XCOM_Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/XCOM_Garrison.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/XCOM_Headquarters.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/XCOM_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/XCOM_Outpost.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/XCOM_Processes.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/XCOM_Resolutions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/XCOM_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/XCOM_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/XCOM_Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/XcomInitiativeLite.lua">
+      <Name>XcomInitiative</Name>
+      <Description>XcomInitiativeLite</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
